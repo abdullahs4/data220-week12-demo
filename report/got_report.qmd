@@ -1,0 +1,75 @@
+---
+title: "Episode ratings report"
+author: "DATA 220 example"
+date: today
+format:
+  html:
+    embed-resources: true
+execute:
+  echo: false
+  warning: false
+  message: false
+---
+
+```{r}
+#| label: setup
+library(dplyr)
+library(ggplot2)
+library(plotly)
+
+show_name <- "Game of Thrones"      # change this line to report on another show
+
+episodes <- read.csv("data/episodes.csv")
+one_show <- filter(episodes, show == show_name)
+
+last_season <- max(one_show$season)
+earlier     <- filter(one_show, season <  last_season)
+final       <- filter(one_show, season == last_season)
+lowest      <- head(arrange(one_show, rating), 1)
+```
+
+## `r show_name`: did the ending hold up?
+
+`r show_name` has **`r nrow(one_show)` episodes** in our data.
+Seasons 1 to `r last_season - 1` average
+**`r round(mean(earlier$rating), 2)`** out of 10.
+The final season averages **`r round(mean(final$rating), 2)`**.
+
+One episode with the lowest rating (`r lowest$rating`) is "`r lowest$title`"
+(season `r lowest$season`, episode `r lowest$episode`).
+
+## Every episode
+
+Move the mouse over a point to see the episode.
+
+```{r}
+#| label: fig-episodes
+#| fig-cap: "Rating of every episode, in order of release."
+p <- ggplot(one_show, aes(x = episode_no, y = rating)) +
+  geom_line(colour = "grey70") +
+  geom_point(aes(text = paste0("Season ", season, ", episode ", episode,
+                               "<br>", title,
+                               "<br>Rating: ", rating)),
+             colour = "steelblue") +
+  labs(x = "Episode (in order of release)", y = "Episode rating (out of 10)")
+
+ggplotly(p, tooltip = "text")
+```
+
+## Average by season
+
+```{r}
+#| label: tbl-seasons
+#| tbl-cap: "Number of episodes and average rating in each season."
+season_avg <- one_show |>
+  group_by(season) |>
+  summarise(episodes = n(), average_rating = round(mean(rating), 2))
+
+knitr::kable(season_avg)
+```
+
+## About this report
+
+Data: TVmaze API, collected 11 November 2026. Ratings are TVmaze users' ratings
+on that day, and they change. This report was built from `got_report.qmd`;
+every number and chart above is calculated when the file is rendered.

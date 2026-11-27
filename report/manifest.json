@@ -1,0 +1,668 @@
+{
+  "version": 1,
+  "locale": "C",
+  "platform": "4.3.3",
+  "metadata": {
+    "appmode": "quarto-static",
+    "primary_rmd": "got_report.qmd",
+    "primary_html": null,
+    "content_category": null,
+    "has_parameters": false
+  },
+  "quarto": {
+    "version": "1.11.9",
+    "engines": [
+      "knitr"
+    ]
+  },
+  "files": {
+    "data/episodes.csv": {
+      "checksum": "b8a5bdfa191a2ae70f5a749dfa239f44"
+    },
+    "got_report.qmd": {
+      "checksum": "b0d8ae03f72714c190eb37dabf47d364"
+    }
+  },
+  "users": null,
+  "packages": {
+    "MASS": {
+      "Source": "CRAN",
+      "Repository": "https://cloud.r-project.org",
+      "description": {
+        "Package": "MASS",
+        "Version": "7.3-60.0.1",
+        "Repository": "CRAN"
+      }
+    },
+    "Matrix": {
+      "Source": "CRAN",
+      "Repository": "https://cloud.r-project.org",
+      "description": {
+        "Package": "Matrix",
+        "Version": "1.6-5",
+        "Repository": "CRAN"
+      }
+    },
+    "R6": {
+      "Source": "CRAN",
+      "Repository": "https://cloud.r-project.org",
+      "description": {
+        "Package": "R6",
+        "Version": "2.5.1",
+        "Repository": "CRAN"
+      }
+    },
+    "RColorBrewer": {
+      "Source": "CRAN",
+      "Repository": "https://cloud.r-project.org",
+      "description": {
+        "Package": "RColorBrewer",
+        "Version": "1.1-3",
+        "Repository": "CRAN"
+      }
+    },
+    "Rcpp": {
+      "Source": "CRAN",
+      "Repository": "https://cloud.r-project.org",
+      "description": {
+        "Package": "Rcpp",
+        "Version": "1.0.12",
+        "Repository": "CRAN"
+      }
+    },
+    "askpass": {
+      "Source": "CRAN",
+      "Repository": "https://cloud.r-project.org",
+      "description": {
+        "Package": "askpass",
+        "Version": "1.2.0",
+        "Repository": "CRAN"
+      }
+    },
+    "base64enc": {
+      "Source": "CRAN",
+      "Repository": "https://cloud.r-project.org",
+      "description": {
+        "Package": "base64enc",
+        "Version": "0.1-3",
+        "Repository": "CRAN"
+      }
+    },
+    "bslib": {
+      "Source": "CRAN",
+      "Repository": "https://cloud.r-project.org",
+      "description": {
+        "Package": "bslib",
+        "Version": "0.6.1",
+        "Repository": "CRAN"
+      }
+    },
+    "cachem": {
+      "Source": "CRAN",
+      "Repository": "https://cloud.r-project.org",
+      "description": {
+        "Package": "cachem",
+        "Version": "1.0.8",
+        "Repository": "CRAN"
+      }
+    },
+    "cli": {
+      "Source": "CRAN",
+      "Repository": "https://cloud.r-project.org",
+      "description": {
+        "Package": "cli",
+        "Version": "3.6.2",
+        "Repository": "CRAN"
+      }
+    },
+    "colorspace": {
+      "Source": "CRAN",
+      "Repository": "https://cloud.r-project.org",
+      "description": {
+        "Package": "colorspace",
+        "Version": "2.1-0",
+        "Repository": "CRAN"
+      }
+    },
+    "cpp11": {
+      "Source": "CRAN",
+      "Repository": "https://cloud.r-project.org",
+      "description": {
+        "Package": "cpp11",
+        "Version": "0.4.7",
+        "Repository": "CRAN"
+      }
+    },
+    "crosstalk": {
+      "Source": "CRAN",
+      "Repository": "https://cloud.r-project.org",
+      "description": {
+        "Package": "crosstalk",
+        "Version": "1.2.1",
+        "Repository": "CRAN"
+      }
+    },
+    "curl": {
+      "Source": "CRAN",
+      "Repository": "https://cloud.r-project.org",
+      "description": {
+        "Package": "curl",
+        "Version": "5.2.0",
+        "Repository": "CRAN"
+      }
+    },
+    "data.table": {
+      "Source": "CRAN",
+      "Repository": "https://cloud.r-project.org",
+      "description": {
+        "Package": "data.table",
+        "Version": "1.14.10",
+        "Repository": "CRAN"
+      }
+    },
+    "digest": {
+      "Source": "CRAN",
+      "Repository": "https://cloud.r-project.org",
+      "description": {
+        "Package": "digest",
+        "Version": "0.6.34",
+        "Repository": "CRAN"
+      }
+    },
+    "dplyr": {
+      "Source": "CRAN",
+      "Repository": "https://cloud.r-project.org",
+      "description": {
+        "Package": "dplyr",
+        "Version": "1.1.4",
+        "Repository": "CRAN"
+      }
+    },
+    "ellipsis": {
+      "Source": "CRAN",
+      "Repository": "https://cloud.r-project.org",
+      "description": {
+        "Package": "ellipsis",
+        "Version": "0.3.2",
+        "Repository": "CRAN"
+      }
+    },
+    "evaluate": {
+      "Source": "CRAN",
+      "Repository": "https://cloud.r-project.org",
+      "description": {
+        "Package": "evaluate",
+        "Version": "0.23",
+        "Repository": "CRAN"
+      }
+    },
+    "fansi": {
+      "Source": "CRAN",
+      "Repository": "https://cloud.r-project.org",
+      "description": {
+        "Package": "fansi",
+        "Version": "1.0.5",
+        "Repository": "CRAN"
+      }
+    },
+    "farver": {
+      "Source": "CRAN",
+      "Repository": "https://cloud.r-project.org",
+      "description": {
+        "Package": "farver",
+        "Version": "2.1.1",
+        "Repository": "CRAN"
+      }
+    },
+    "fastmap": {
+      "Source": "CRAN",
+      "Repository": "https://cloud.r-project.org",
+      "description": {
+        "Package": "fastmap",
+        "Version": "1.1.1",
+        "Repository": "CRAN"
+      }
+    },
+    "fontawesome": {
+      "Source": "CRAN",
+      "Repository": "https://cloud.r-project.org",
+      "description": {
+        "Package": "fontawesome",
+        "Version": "0.5.2",
+        "Repository": "CRAN"
+      }
+    },
+    "fs": {
+      "Source": "CRAN",
+      "Repository": "https://cloud.r-project.org",
+      "description": {
+        "Package": "fs",
+        "Version": "1.6.3",
+        "Repository": "CRAN"
+      }
+    },
+    "generics": {
+      "Source": "CRAN",
+      "Repository": "https://cloud.r-project.org",
+      "description": {
+        "Package": "generics",
+        "Version": "0.1.3",
+        "Repository": "CRAN"
+      }
+    },
+    "ggplot2": {
+      "Source": "CRAN",
+      "Repository": "https://cloud.r-project.org",
+      "description": {
+        "Package": "ggplot2",
+        "Version": "3.4.4",
+        "Repository": "CRAN"
+      }
+    },
+    "glue": {
+      "Source": "CRAN",
+      "Repository": "https://cloud.r-project.org",
+      "description": {
+        "Package": "glue",
+        "Version": "1.7.0",
+        "Repository": "CRAN"
+      }
+    },
+    "gtable": {
+      "Source": "CRAN",
+      "Repository": "https://cloud.r-project.org",
+      "description": {
+        "Package": "gtable",
+        "Version": "0.3.4",
+        "Repository": "CRAN"
+      }
+    },
+    "highr": {
+      "Source": "CRAN",
+      "Repository": "https://cloud.r-project.org",
+      "description": {
+        "Package": "highr",
+        "Version": "0.10",
+        "Repository": "CRAN"
+      }
+    },
+    "htmltools": {
+      "Source": "CRAN",
+      "Repository": "https://cloud.r-project.org",
+      "description": {
+        "Package": "htmltools",
+        "Version": "0.5.7",
+        "Repository": "CRAN"
+      }
+    },
+    "htmlwidgets": {
+      "Source": "CRAN",
+      "Repository": "https://cloud.r-project.org",
+      "description": {
+        "Package": "htmlwidgets",
+        "Version": "1.6.4",
+        "Repository": "CRAN"
+      }
+    },
+    "httr": {
+      "Source": "CRAN",
+      "Repository": "https://cloud.r-project.org",
+      "description": {
+        "Package": "httr",
+        "Version": "1.4.7",
+        "Repository": "CRAN"
+      }
+    },
+    "isoband": {
+      "Source": "CRAN",
+      "Repository": "https://cloud.r-project.org",
+      "description": {
+        "Package": "isoband",
+        "Version": "0.2.7",
+        "Repository": "CRAN"
+      }
+    },
+    "jquerylib": {
+      "Source": "CRAN",
+      "Repository": "https://cloud.r-project.org",
+      "description": {
+        "Package": "jquerylib",
+        "Version": "0.1.4",
+        "Repository": "CRAN"
+      }
+    },
+    "jsonlite": {
+      "Source": "CRAN",
+      "Repository": "https://cloud.r-project.org",
+      "description": {
+        "Package": "jsonlite",
+        "Version": "1.8.8",
+        "Repository": "CRAN"
+      }
+    },
+    "knitr": {
+      "Source": "CRAN",
+      "Repository": "https://cloud.r-project.org",
+      "description": {
+        "Package": "knitr",
+        "Version": "1.45",
+        "Repository": "CRAN"
+      }
+    },
+    "labeling": {
+      "Source": "CRAN",
+      "Repository": "https://cloud.r-project.org",
+      "description": {
+        "Package": "labeling",
+        "Version": "0.4.3",
+        "Repository": "CRAN"
+      }
+    },
+    "later": {
+      "Source": "CRAN",
+      "Repository": "https://cloud.r-project.org",
+      "description": {
+        "Package": "later",
+        "Version": "1.3.2",
+        "Repository": "CRAN"
+      }
+    },
+    "lattice": {
+      "Source": "CRAN",
+      "Repository": "https://cloud.r-project.org",
+      "description": {
+        "Package": "lattice",
+        "Version": "0.22-5",
+        "Repository": "CRAN"
+      }
+    },
+    "lazyeval": {
+      "Source": "CRAN",
+      "Repository": "https://cloud.r-project.org",
+      "description": {
+        "Package": "lazyeval",
+        "Version": "0.2.2",
+        "Repository": "CRAN"
+      }
+    },
+    "lifecycle": {
+      "Source": "CRAN",
+      "Repository": "https://cloud.r-project.org",
+      "description": {
+        "Package": "lifecycle",
+        "Version": "1.0.4",
+        "Repository": "CRAN"
+      }
+    },
+    "magrittr": {
+      "Source": "CRAN",
+      "Repository": "https://cloud.r-project.org",
+      "description": {
+        "Package": "magrittr",
+        "Version": "2.0.3",
+        "Repository": "CRAN"
+      }
+    },
+    "memoise": {
+      "Source": "CRAN",
+      "Repository": "https://cloud.r-project.org",
+      "description": {
+        "Package": "memoise",
+        "Version": "2.0.1",
+        "Repository": "CRAN"
+      }
+    },
+    "mgcv": {
+      "Source": "CRAN",
+      "Repository": "https://cloud.r-project.org",
+      "description": {
+        "Package": "mgcv",
+        "Version": "1.9-1",
+        "Repository": "CRAN"
+      }
+    },
+    "mime": {
+      "Source": "CRAN",
+      "Repository": "https://cloud.r-project.org",
+      "description": {
+        "Package": "mime",
+        "Version": "0.12",
+        "Repository": "CRAN"
+      }
+    },
+    "munsell": {
+      "Source": "CRAN",
+      "Repository": "https://cloud.r-project.org",
+      "description": {
+        "Package": "munsell",
+        "Version": "0.5.0",
+        "Repository": "CRAN"
+      }
+    },
+    "nlme": {
+      "Source": "CRAN",
+      "Repository": "https://cloud.r-project.org",
+      "description": {
+        "Package": "nlme",
+        "Version": "3.1-164",
+        "Repository": "CRAN"
+      }
+    },
+    "openssl": {
+      "Source": "CRAN",
+      "Repository": "https://cloud.r-project.org",
+      "description": {
+        "Package": "openssl",
+        "Version": "2.1.1",
+        "Repository": "CRAN"
+      }
+    },
+    "pillar": {
+      "Source": "CRAN",
+      "Repository": "https://cloud.r-project.org",
+      "description": {
+        "Package": "pillar",
+        "Version": "1.9.0",
+        "Repository": "CRAN"
+      }
+    },
+    "pkgconfig": {
+      "Source": "CRAN",
+      "Repository": "https://cloud.r-project.org",
+      "description": {
+        "Package": "pkgconfig",
+        "Version": "2.0.3",
+        "Repository": "CRAN"
+      }
+    },
+    "plotly": {
+      "Source": "CRAN",
+      "Repository": "https://cloud.r-project.org",
+      "description": {
+        "Package": "plotly",
+        "Version": "4.10.4",
+        "Repository": "CRAN"
+      }
+    },
+    "promises": {
+      "Source": "CRAN",
+      "Repository": "https://cloud.r-project.org",
+      "description": {
+        "Package": "promises",
+        "Version": "1.2.1",
+        "Repository": "CRAN"
+      }
+    },
+    "purrr": {
+      "Source": "CRAN",
+      "Repository": "https://cloud.r-project.org",
+      "description": {
+        "Package": "purrr",
+        "Version": "1.0.2",
+        "Repository": "CRAN"
+      }
+    },
+    "rappdirs": {
+      "Source": "CRAN",
+      "Repository": "https://cloud.r-project.org",
+      "description": {
+        "Package": "rappdirs",
+        "Version": "0.3.3",
+        "Repository": "CRAN"
+      }
+    },
+    "rlang": {
+      "Source": "CRAN",
+      "Repository": "https://cloud.r-project.org",
+      "description": {
+        "Package": "rlang",
+        "Version": "1.1.3",
+        "Repository": "CRAN"
+      }
+    },
+    "rmarkdown": {
+      "Source": "CRAN",
+      "Repository": "https://cloud.r-project.org",
+      "description": {
+        "Package": "rmarkdown",
+        "Version": "2.25",
+        "Repository": "CRAN"
+      }
+    },
+    "sass": {
+      "Source": "CRAN",
+      "Repository": "https://cloud.r-project.org",
+      "description": {
+        "Package": "sass",
+        "Version": "0.4.8",
+        "Repository": "CRAN"
+      }
+    },
+    "scales": {
+      "Source": "CRAN",
+      "Repository": "https://cloud.r-project.org",
+      "description": {
+        "Package": "scales",
+        "Version": "1.3.0",
+        "Repository": "CRAN"
+      }
+    },
+    "stringi": {
+      "Source": "CRAN",
+      "Repository": "https://cloud.r-project.org",
+      "description": {
+        "Package": "stringi",
+        "Version": "1.8.3",
+        "Repository": "CRAN"
+      }
+    },
+    "stringr": {
+      "Source": "CRAN",
+      "Repository": "https://cloud.r-project.org",
+      "description": {
+        "Package": "stringr",
+        "Version": "1.5.1",
+        "Repository": "CRAN"
+      }
+    },
+    "sys": {
+      "Source": "CRAN",
+      "Repository": "https://cloud.r-project.org",
+      "description": {
+        "Package": "sys",
+        "Version": "3.4.2",
+        "Repository": "CRAN"
+      }
+    },
+    "tibble": {
+      "Source": "CRAN",
+      "Repository": "https://cloud.r-project.org",
+      "description": {
+        "Package": "tibble",
+        "Version": "3.2.1",
+        "Repository": "CRAN"
+      }
+    },
+    "tidyr": {
+      "Source": "CRAN",
+      "Repository": "https://cloud.r-project.org",
+      "description": {
+        "Package": "tidyr",
+        "Version": "1.3.1",
+        "Repository": "CRAN"
+      }
+    },
+    "tidyselect": {
+      "Source": "CRAN",
+      "Repository": "https://cloud.r-project.org",
+      "description": {
+        "Package": "tidyselect",
+        "Version": "1.2.0",
+        "Repository": "CRAN"
+      }
+    },
+    "tinytex": {
+      "Source": "CRAN",
+      "Repository": "https://cloud.r-project.org",
+      "description": {
+        "Package": "tinytex",
+        "Version": "0.49",
+        "Repository": "CRAN"
+      }
+    },
+    "utf8": {
+      "Source": "CRAN",
+      "Repository": "https://cloud.r-project.org",
+      "description": {
+        "Package": "utf8",
+        "Version": "1.2.4",
+        "Repository": "CRAN"
+      }
+    },
+    "vctrs": {
+      "Source": "CRAN",
+      "Repository": "https://cloud.r-project.org",
+      "description": {
+        "Package": "vctrs",
+        "Version": "0.6.5",
+        "Repository": "CRAN"
+      }
+    },
+    "viridisLite": {
+      "Source": "CRAN",
+      "Repository": "https://cloud.r-project.org",
+      "description": {
+        "Package": "viridisLite",
+        "Version": "0.4.2",
+        "Repository": "CRAN"
+      }
+    },
+    "withr": {
+      "Source": "CRAN",
+      "Repository": "https://cloud.r-project.org",
+      "description": {
+        "Package": "withr",
+        "Version": "2.5.0",
+        "Repository": "CRAN"
+      }
+    },
+    "xfun": {
+      "Source": "CRAN",
+      "Repository": "https://cloud.r-project.org",
+      "description": {
+        "Package": "xfun",
+        "Version": "0.41",
+        "Repository": "CRAN"
+      }
+    },
+    "yaml": {
+      "Source": "CRAN",
+      "Repository": "https://cloud.r-project.org",
+      "description": {
+        "Package": "yaml",
+        "Version": "2.3.8",
+        "Repository": "CRAN"
+      }
+    }
+  }
+}
