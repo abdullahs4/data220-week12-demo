@@ -25,7 +25,10 @@
       "description": {
         "Package": "MASS",
         "Version": "7.3-60.0.1",
-        "Repository": "CRAN"
+        "Repository": "CRAN",
+        "Depends": "R (>= 4.0), grDevices, graphics, stats, utils",
+        "Imports": "methods",
+        "NeedsCompilation": "yes"
       }
     },
     "Matrix": {
@@ -34,7 +37,10 @@
       "description": {
         "Package": "Matrix",
         "Version": "1.6-5",
-        "Repository": "CRAN"
+        "Repository": "CRAN",
+        "Depends": "R (>= 3.5.0), methods",
+        "Imports": "grDevices, graphics, grid, lattice, stats, utils",
+        "NeedsCompilation": "yes"
       }
     },
     "R6": {
@@ -43,7 +49,9 @@
       "description": {
         "Package": "R6",
         "Version": "2.5.1",
-        "Repository": "CRAN"
+        "Repository": "CRAN",
+        "Depends": "R (>= 3.0)",
+        "NeedsCompilation": "no"
       }
     },
     "RColorBrewer": {
@@ -52,7 +60,9 @@
       "description": {
         "Package": "RColorBrewer",
         "Version": "1.1-3",
-        "Repository": "CRAN"
+        "Repository": "CRAN",
+        "Depends": "R (>= 2.0.0)",
+        "NeedsCompilation": "no"
       }
     },
     "Rcpp": {
@@ -61,7 +71,9 @@
       "description": {
         "Package": "Rcpp",
         "Version": "1.0.12",
-        "Repository": "CRAN"
+        "Repository": "CRAN",
+        "Imports": "methods, utils",
+        "NeedsCompilation": "yes"
       }
     },
     "base64enc": {
@@ -70,7 +82,9 @@
       "description": {
         "Package": "base64enc",
         "Version": "0.1-3",
-        "Repository": "CRAN"
+        "Repository": "CRAN",
+        "Depends": "R (>= 2.9.0)",
+        "NeedsCompilation": "yes"
       }
     },
     "bslib": {
@@ -79,7 +93,10 @@
       "description": {
         "Package": "bslib",
         "Version": "0.6.1",
-        "Repository": "CRAN"
+        "Repository": "CRAN",
+        "Depends": "R (>= 2.10)",
+        "Imports": "base64enc, cachem, grDevices, htmltools (>= 0.5.7), jquerylib (>= 0.1.3), jsonlite, lifecycle, memoise (>= 2.0.1), mime, rlang, sass (>= 0.4.0)",
+        "NeedsCompilation": "no"
       }
     },
     "cachem": {
@@ -88,7 +105,9 @@
       "description": {
         "Package": "cachem",
         "Version": "1.0.8",
-        "Repository": "CRAN"
+        "Repository": "CRAN",
+        "Imports": "rlang, fastmap (>= 1.1.1)",
+        "NeedsCompilation": "yes"
       }
     },
     "cli": {
@@ -97,7 +116,10 @@
       "description": {
         "Package": "cli",
         "Version": "3.6.2",
-        "Repository": "CRAN"
+        "Repository": "CRAN",
+        "Depends": "R (>= 3.4)",
+        "Imports": "utils",
+        "NeedsCompilation": "yes"
       }
     },
     "colorspace": {
@@ -106,7 +128,10 @@
       "description": {
         "Package": "colorspace",
         "Version": "2.1-0",
-        "Repository": "CRAN"
+        "Repository": "CRAN",
+        "Depends": "R (>= 3.0.0), methods",
+        "Imports": "graphics, grDevices, stats",
+        "NeedsCompilation": "yes"
       }
     },
     "commonmark": {
@@ -115,7 +140,8 @@
       "description": {
         "Package": "commonmark",
         "Version": "1.9.1",
-        "Repository": "CRAN"
+        "Repository": "CRAN",
+        "NeedsCompilation": "yes"
       }
     },
     "crayon": {
@@ -124,7 +150,9 @@
       "description": {
         "Package": "crayon",
         "Version": "1.5.2",
-        "Repository": "CRAN"
+        "Repository": "CRAN",
+        "Imports": "grDevices, methods, utils",
+        "NeedsCompilation": "no"
       }
     },
     "digest": {
@@ -133,7 +161,10 @@
       "description": {
         "Package": "digest",
         "Version": "0.6.34",
-        "Repository": "CRAN"
+        "Repository": "CRAN",
+        "Depends": "R (>= 3.3.0)",
+        "Imports": "utils",
+        "NeedsCompilation": "yes"
       }
     },
     "dplyr": {
@@ -142,7 +173,10 @@
       "description": {
         "Package": "dplyr",
         "Version": "1.1.4",
-        "Repository": "CRAN"
+        "Repository": "CRAN",
+        "Depends": "R (>= 3.5.0)",
+        "Imports": "cli (>= 3.4.0), generics, glue (>= 1.3.2), lifecycle (>= 1.0.3), magrittr (>= 1.5), methods, pillar (>= 1.9.0), R6, rlang (>= 1.1.0), tibble (>= 3.2.0), tidyselect (>= 1.2.0), utils, vctrs (>= 0.6.4)",
+        "NeedsCompilation": "yes"
       }
     },
     "ellipsis": {
@@ -151,7 +185,10 @@
       "description": {
         "Package": "ellipsis",
         "Version": "0.3.2",
-        "Repository": "CRAN"
+        "Repository": "CRAN",
+        "Depends": "R (>= 3.2)",
+        "Imports": "rlang (>= 0.3.0)",
+        "NeedsCompilation": "yes"
       }
     },
     "fansi": {
@@ -160,7 +197,10 @@
       "description": {
         "Package": "fansi",
         "Version": "1.0.5",
-        "Repository": "CRAN"
+        "Repository": "CRAN",
+        "Depends": "R (>= 3.1.0)",
+        "Imports": "grDevices, utils",
+        "NeedsCompilation": "yes"
       }
     },
     "farver": {
@@ -169,7 +209,8 @@
       "description": {
         "Package": "farver",
         "Version": "2.1.1",
-        "Repository": "CRAN"
+        "Repository": "CRAN",
+        "NeedsCompilation": "yes"
       }
     },
     "fastmap": {
@@ -178,7 +219,8 @@
       "description": {
         "Package": "fastmap",
         "Version": "1.1.1",
-        "Repository": "CRAN"
+        "Repository": "CRAN",
+        "NeedsCompilation": "yes"
       }
     },
     "fontawesome": {
@@ -187,7 +229,10 @@
       "description": {
         "Package": "fontawesome",
         "Version": "0.5.2",
-        "Repository": "CRAN"
+        "Repository": "CRAN",
+        "Depends": "R (>= 3.3.0)",
+        "Imports": "rlang (>= 1.0.6), htmltools (>= 0.5.1.1)",
+        "NeedsCompilation": "no"
       }
     },
     "fs": {
@@ -196,7 +241,10 @@
       "description": {
         "Package": "fs",
         "Version": "1.6.3",
-        "Repository": "CRAN"
+        "Repository": "CRAN",
+        "Depends": "R (>= 3.4)",
+        "Imports": "methods",
+        "NeedsCompilation": "yes"
       }
     },
     "generics": {
@@ -205,7 +253,10 @@
       "description": {
         "Package": "generics",
         "Version": "0.1.3",
-        "Repository": "CRAN"
+        "Repository": "CRAN",
+        "Depends": "R (>= 3.2)",
+        "Imports": "methods",
+        "NeedsCompilation": "no"
       }
     },
     "ggplot2": {
@@ -214,7 +265,10 @@
       "description": {
         "Package": "ggplot2",
         "Version": "3.4.4",
-        "Repository": "CRAN"
+        "Repository": "CRAN",
+        "Depends": "R (>= 3.3)",
+        "Imports": "cli, glue, grDevices, grid, gtable (>= 0.1.1), isoband, lifecycle (> 1.0.1), MASS, mgcv, rlang (>= 1.1.0), scales (>= 1.2.0), stats, tibble, vctrs (>= 0.5.0), withr (>= 2.5.0)",
+        "NeedsCompilation": "no"
       }
     },
     "glue": {
@@ -223,7 +277,10 @@
       "description": {
         "Package": "glue",
         "Version": "1.7.0",
-        "Repository": "CRAN"
+        "Repository": "CRAN",
+        "Depends": "R (>= 3.6)",
+        "Imports": "methods",
+        "NeedsCompilation": "yes"
       }
     },
     "gtable": {
@@ -232,7 +289,10 @@
       "description": {
         "Package": "gtable",
         "Version": "0.3.4",
-        "Repository": "CRAN"
+        "Repository": "CRAN",
+        "Depends": "R (>= 3.5)",
+        "Imports": "cli, glue, grid, lifecycle, rlang (>= 1.1.0)",
+        "NeedsCompilation": "no"
       }
     },
     "htmltools": {
@@ -241,7 +301,10 @@
       "description": {
         "Package": "htmltools",
         "Version": "0.5.7",
-        "Repository": "CRAN"
+        "Repository": "CRAN",
+        "Depends": "R (>= 2.14.1)",
+        "Imports": "base64enc, digest, ellipsis, fastmap (>= 1.1.0), grDevices, rlang (>= 1.0.0), utils",
+        "NeedsCompilation": "yes"
       }
     },
     "httpuv": {
@@ -250,7 +313,11 @@
       "description": {
         "Package": "httpuv",
         "Version": "1.6.14",
-        "Repository": "CRAN"
+        "Repository": "CRAN",
+        "Depends": "R (>= 2.15.1)",
+        "Imports": "later (>= 0.8.0), promises, R6, Rcpp (>= 1.0.7), utils",
+        "LinkingTo": "later, Rcpp",
+        "NeedsCompilation": "yes"
       }
     },
     "isoband": {
@@ -259,7 +326,9 @@
       "description": {
         "Package": "isoband",
         "Version": "0.2.7",
-        "Repository": "CRAN"
+        "Repository": "CRAN",
+        "Imports": "grid, utils",
+        "NeedsCompilation": "yes"
       }
     },
     "jquerylib": {
@@ -268,7 +337,9 @@
       "description": {
         "Package": "jquerylib",
         "Version": "0.1.4",
-        "Repository": "CRAN"
+        "Repository": "CRAN",
+        "Imports": "htmltools",
+        "NeedsCompilation": "no"
       }
     },
     "jsonlite": {
@@ -277,7 +348,9 @@
       "description": {
         "Package": "jsonlite",
         "Version": "1.8.8",
-        "Repository": "CRAN"
+        "Repository": "CRAN",
+        "Depends": "methods",
+        "NeedsCompilation": "yes"
       }
     },
     "labeling": {
@@ -286,7 +359,9 @@
       "description": {
         "Package": "labeling",
         "Version": "0.4.3",
-        "Repository": "CRAN"
+        "Repository": "CRAN",
+        "Imports": "stats, graphics",
+        "NeedsCompilation": "no"
       }
     },
     "later": {
@@ -295,7 +370,10 @@
       "description": {
         "Package": "later",
         "Version": "1.3.2",
-        "Repository": "CRAN"
+        "Repository": "CRAN",
+        "Imports": "Rcpp (>= 0.12.9), rlang",
+        "LinkingTo": "Rcpp",
+        "NeedsCompilation": "yes"
       }
     },
     "lattice": {
@@ -304,7 +382,10 @@
       "description": {
         "Package": "lattice",
         "Version": "0.22-5",
-        "Repository": "CRAN"
+        "Repository": "CRAN",
+        "Depends": "R (>= 4.0.0)",
+        "Imports": "grid, grDevices, graphics, stats, utils",
+        "NeedsCompilation": "yes"
       }
     },
     "lifecycle": {
@@ -313,7 +394,10 @@
       "description": {
         "Package": "lifecycle",
         "Version": "1.0.4",
-        "Repository": "CRAN"
+        "Repository": "CRAN",
+        "Depends": "R (>= 3.6)",
+        "Imports": "cli (>= 3.4.0), glue, rlang (>= 1.1.0)",
+        "NeedsCompilation": "no"
       }
     },
     "magrittr": {
@@ -322,7 +406,9 @@
       "description": {
         "Package": "magrittr",
         "Version": "2.0.3",
-        "Repository": "CRAN"
+        "Repository": "CRAN",
+        "Depends": "R (>= 3.4.0)",
+        "NeedsCompilation": "yes"
       }
     },
     "memoise": {
@@ -331,7 +417,9 @@
       "description": {
         "Package": "memoise",
         "Version": "2.0.1",
-        "Repository": "CRAN"
+        "Repository": "CRAN",
+        "Imports": "rlang (>= 0.4.10), cachem",
+        "NeedsCompilation": "no"
       }
     },
     "mgcv": {
@@ -340,7 +428,10 @@
       "description": {
         "Package": "mgcv",
         "Version": "1.9-1",
-        "Repository": "CRAN"
+        "Repository": "CRAN",
+        "Depends": "R (>= 3.6.0), nlme (>= 3.1-64)",
+        "Imports": "methods, stats, graphics, Matrix, splines, utils",
+        "NeedsCompilation": "yes"
       }
     },
     "mime": {
@@ -349,7 +440,9 @@
       "description": {
         "Package": "mime",
         "Version": "0.12",
-        "Repository": "CRAN"
+        "Repository": "CRAN",
+        "Imports": "tools",
+        "NeedsCompilation": "yes"
       }
     },
     "munsell": {
@@ -358,7 +451,9 @@
       "description": {
         "Package": "munsell",
         "Version": "0.5.0",
-        "Repository": "CRAN"
+        "Repository": "CRAN",
+        "Imports": "colorspace, methods",
+        "NeedsCompilation": "no"
       }
     },
     "nlme": {
@@ -367,7 +462,10 @@
       "description": {
         "Package": "nlme",
         "Version": "3.1-164",
-        "Repository": "CRAN"
+        "Repository": "CRAN",
+        "Depends": "R (>= 3.5.0)",
+        "Imports": "graphics, stats, utils, lattice",
+        "NeedsCompilation": "yes"
       }
     },
     "pillar": {
@@ -376,7 +474,9 @@
       "description": {
         "Package": "pillar",
         "Version": "1.9.0",
-        "Repository": "CRAN"
+        "Repository": "CRAN",
+        "Imports": "cli (>= 2.3.0), fansi, glue, lifecycle, rlang (>= 1.0.2), utf8 (>= 1.1.0), utils, vctrs (>= 0.5.0)",
+        "NeedsCompilation": "no"
       }
     },
     "pkgconfig": {
@@ -385,7 +485,9 @@
       "description": {
         "Package": "pkgconfig",
         "Version": "2.0.3",
-        "Repository": "CRAN"
+        "Repository": "CRAN",
+        "Imports": "utils",
+        "NeedsCompilation": "no"
       }
     },
     "promises": {
@@ -394,7 +496,10 @@
       "description": {
         "Package": "promises",
         "Version": "1.2.1",
-        "Repository": "CRAN"
+        "Repository": "CRAN",
+        "Imports": "fastmap (>= 1.1.0), later, magrittr (>= 1.5), R6, Rcpp, rlang, stats",
+        "LinkingTo": "later, Rcpp",
+        "NeedsCompilation": "yes"
       }
     },
     "rappdirs": {
@@ -403,7 +508,9 @@
       "description": {
         "Package": "rappdirs",
         "Version": "0.3.3",
-        "Repository": "CRAN"
+        "Repository": "CRAN",
+        "Depends": "R (>= 3.2)",
+        "NeedsCompilation": "yes"
       }
     },
     "rlang": {
@@ -412,7 +519,10 @@
       "description": {
         "Package": "rlang",
         "Version": "1.1.3",
-        "Repository": "CRAN"
+        "Repository": "CRAN",
+        "Depends": "R (>= 3.5.0)",
+        "Imports": "utils",
+        "NeedsCompilation": "yes"
       }
     },
     "sass": {
@@ -421,7 +531,9 @@
       "description": {
         "Package": "sass",
         "Version": "0.4.8",
-        "Repository": "CRAN"
+        "Repository": "CRAN",
+        "Imports": "fs (>= 1.2.4), rlang (>= 0.4.10), htmltools (>= 0.5.1), R6, rappdirs",
+        "NeedsCompilation": "yes"
       }
     },
     "scales": {
@@ -430,7 +542,10 @@
       "description": {
         "Package": "scales",
         "Version": "1.3.0",
-        "Repository": "CRAN"
+        "Repository": "CRAN",
+        "Depends": "R (>= 3.6)",
+        "Imports": "cli, farver (>= 2.0.3), glue, labeling, lifecycle, munsell (>= 0.5), R6, RColorBrewer, rlang (>= 1.0.0), viridisLite",
+        "NeedsCompilation": "yes"
       }
     },
     "shiny": {
@@ -439,7 +554,10 @@
       "description": {
         "Package": "shiny",
         "Version": "1.8.0",
-        "Repository": "CRAN"
+        "Repository": "CRAN",
+        "Depends": "R (>= 3.0.2), methods",
+        "Imports": "utils, grDevices, httpuv (>= 1.5.2), mime (>= 0.3), jsonlite (>= 0.9.16), xtable, fontawesome (>= 0.4.0), htmltools (>= 0.5.4), R6 (>= 2.0), sourcetools, later (>= 1.0.0), promises (>= 1.1.0), tools, crayon, rlang (>= 0.4.10), fastmap (>= 1.1.1), withr, commonmark (>= 1.7), glue (>= 1.3.2), bslib (>= 0.3.0), cachem, ellipsis, lifecycle (>= 0.2.0)",
+        "NeedsCompilation": "no"
       }
     },
     "sourcetools": {
@@ -448,7 +566,9 @@
       "description": {
         "Package": "sourcetools",
         "Version": "0.1.7-1",
-        "Repository": "CRAN"
+        "Repository": "CRAN",
+        "Depends": "R (>= 3.0.2)",
+        "NeedsCompilation": "yes"
       }
     },
     "tibble": {
@@ -457,7 +577,10 @@
       "description": {
         "Package": "tibble",
         "Version": "3.2.1",
-        "Repository": "CRAN"
+        "Repository": "CRAN",
+        "Depends": "R (>= 3.4.0)",
+        "Imports": "fansi (>= 0.4.0), lifecycle (>= 1.0.0), magrittr, methods, pillar (>= 1.8.1), pkgconfig, rlang (>= 1.0.2), utils, vctrs (>= 0.4.2)",
+        "NeedsCompilation": "yes"
       }
     },
     "tidyselect": {
@@ -466,7 +589,10 @@
       "description": {
         "Package": "tidyselect",
         "Version": "1.2.0",
-        "Repository": "CRAN"
+        "Repository": "CRAN",
+        "Depends": "R (>= 3.4)",
+        "Imports": "cli (>= 3.3.0), glue (>= 1.3.0), lifecycle (>= 1.0.3), rlang (>= 1.0.4), vctrs (>= 0.4.1), withr",
+        "NeedsCompilation": "no"
       }
     },
     "utf8": {
@@ -475,7 +601,9 @@
       "description": {
         "Package": "utf8",
         "Version": "1.2.4",
-        "Repository": "CRAN"
+        "Repository": "CRAN",
+        "Depends": "R (>= 2.10)",
+        "NeedsCompilation": "yes"
       }
     },
     "vctrs": {
@@ -484,7 +612,10 @@
       "description": {
         "Package": "vctrs",
         "Version": "0.6.5",
-        "Repository": "CRAN"
+        "Repository": "CRAN",
+        "Depends": "R (>= 3.5.0)",
+        "Imports": "cli (>= 3.4.0), glue, lifecycle (>= 1.0.3), rlang (>= 1.1.0)",
+        "NeedsCompilation": "yes"
       }
     },
     "viridisLite": {
@@ -493,7 +624,9 @@
       "description": {
         "Package": "viridisLite",
         "Version": "0.4.2",
-        "Repository": "CRAN"
+        "Repository": "CRAN",
+        "Depends": "R (>= 2.10)",
+        "NeedsCompilation": "no"
       }
     },
     "withr": {
@@ -502,7 +635,10 @@
       "description": {
         "Package": "withr",
         "Version": "2.5.0",
-        "Repository": "CRAN"
+        "Repository": "CRAN",
+        "Depends": "R (>= 3.2.0)",
+        "Imports": "graphics, grDevices, stats",
+        "NeedsCompilation": "no"
       }
     },
     "xtable": {
@@ -511,7 +647,10 @@
       "description": {
         "Package": "xtable",
         "Version": "1.8-4",
-        "Repository": "CRAN"
+        "Repository": "CRAN",
+        "Depends": "R (>= 2.10.0)",
+        "Imports": "stats, utils",
+        "NeedsCompilation": "no"
       }
     }
   }
