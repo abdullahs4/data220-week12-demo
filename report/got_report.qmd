@@ -68,6 +68,13 @@ season_avg <- one_show |>
 knitr::kable(season_avg)
 ```
 
+## Explore every show
+
+This report is fixed: R wrote it for one show, when the file was rendered.
+To look at any of the six shows, open the
+[live Shiny app](https://01a21b65-5857-3e95-6434-d900584f07c6.share.connect.posit.cloud/).
+Each time you choose a show there, R runs again on a server and redraws the chart.
+
 ## About this report
 
 Data: TVmaze API, collected 11 November 2026. Ratings are TVmaze users' ratings
