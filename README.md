@@ -12,8 +12,11 @@ The data are 312 episode ratings for six TV shows, from the TVmaze API.
 
 ## Live links
 
-- Report: (added after the first deployment)
-- Shiny app: (added after the first deployment)
+- Report: https://01a21b67-fabd-82aa-1b0b-92b61d74e47c.share.connect.posit.cloud/
+- Shiny app: https://01a21b65-5857-3e95-6434-d900584f07c6.share.connect.posit.cloud/
+
+Both run on the free plan of Posit Connect Cloud. The app may take a few seconds to wake up
+the first time someone opens it.
 
 ## Run it yourself
 
